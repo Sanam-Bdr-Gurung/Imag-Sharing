@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2069A92C6B77AC00C1F5D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA2069A82C6B77AC00C1F5D9 /* README.md */; };
 		CA2837222C6A6E1F00E62064 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2837212C6A6E1F00E62064 /* DetailViewController.swift */; };
 		CA5B20732C69A9D7005512B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B20722C69A9D7005512B0 /* AppDelegate.swift */; };
 		CA5B20752C69A9D7005512B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B20742C69A9D7005512B0 /* SceneDelegate.swift */; };
@@ -27,8 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA2069A82C6B77AC00C1F5D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA2837212C6A6E1F00E62064 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		CA5B206F2C69A9D7005512B0 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5B20722C69A9D7005512B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5B20742C69A9D7005512B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA5B20762C69A9D7005512B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		CA5B20662C69A9D7005512B0 = {
 			isa = PBXGroup;
 			children = (
+				CA2069A82C6B77AC00C1F5D9 /* README.md */,
 				CA5B20712C69A9D7005512B0 /* Project1 */,
 				CA5B20702C69A9D7005512B0 /* Products */,
 			);
@@ -70,7 +73,7 @@
 		CA5B20702C69A9D7005512B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA5B206F2C69A9D7005512B0 /* Project1.app */,
+				CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA5B206E2C69A9D7005512B0 /* Project1 */ = {
+		CA5B206E2C69A9D7005512B0 /* Weather-Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Weather-Viewer" */;
 			buildPhases = (
 				CA5B206B2C69A9D7005512B0 /* Sources */,
 				CA5B206C2C69A9D7005512B0 /* Frameworks */,
@@ -123,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = "Weather-Viewer";
 			productName = Project1;
-			productReference = CA5B206F2C69A9D7005512B0 /* Project1.app */;
+			productReference = CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Weather-Viewer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA5B206E2C69A9D7005512B0 /* Project1 */,
+				CA5B206E2C69A9D7005512B0 /* Weather-Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +179,7 @@
 				CA5B20AE2C69AC71005512B0 /* nssl0049.jpg in Resources */,
 				CA5B20AA2C69AC71005512B0 /* nssl0042.jpg in Resources */,
 				CA5B207F2C69A9D8005512B0 /* Base in Resources */,
+				CA2069A92C6B77AC00C1F5D9 /* README.md in Resources */,
 				CA5B20B02C69AC71005512B0 /* nssl0091.jpg in Resources */,
 				CA5B20A92C69AC71005512B0 /* nssl0041.jpg in Resources */,
 				CA5B207A2C69A9D7005512B0 /* Base in Resources */,
@@ -394,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Project1" */ = {
+		CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Weather-Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA5B20812C69A9D8005512B0 /* Debug */,
@@ -403,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Weather-Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA5B20842C69A9D8005512B0 /* Debug */,
