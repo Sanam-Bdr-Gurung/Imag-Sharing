@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		CA2069A82C6B77AC00C1F5D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA2837212C6A6E1F00E62064 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5B206F2C69A9D7005512B0 /* Image-Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image-Sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5B20722C69A9D7005512B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5B20742C69A9D7005512B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA5B20762C69A9D7005512B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				CA2069A82C6B77AC00C1F5D9 /* README.md */,
-				CA5B20712C69A9D7005512B0 /* Project1 */,
+				CA5B20712C69A9D7005512B0 /* Image-Sharing */,
 				CA5B20702C69A9D7005512B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,12 +73,12 @@
 		CA5B20702C69A9D7005512B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */,
+				CA5B206F2C69A9D7005512B0 /* Image-Sharing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA5B20712C69A9D7005512B0 /* Project1 */ = {
+		CA5B20712C69A9D7005512B0 /* Image-Sharing */ = {
 			isa = PBXGroup;
 			children = (
 				CA5B20722C69A9D7005512B0 /* AppDelegate.swift */,
@@ -91,7 +91,7 @@
 				CA5B20802C69A9D8005512B0 /* Info.plist */,
 				CA5B20A62C69AC71005512B0 /* Content */,
 			);
-			path = Project1;
+			path = "Image-Sharing";
 			sourceTree = "<group>";
 		};
 		CA5B20A62C69AC71005512B0 /* Content */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA5B206E2C69A9D7005512B0 /* Weather-Viewer */ = {
+		CA5B206E2C69A9D7005512B0 /* Image-Sharing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Weather-Viewer" */;
+			buildConfigurationList = CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Image-Sharing" */;
 			buildPhases = (
 				CA5B206B2C69A9D7005512B0 /* Sources */,
 				CA5B206C2C69A9D7005512B0 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "Weather-Viewer";
+			name = "Image-Sharing";
 			productName = Project1;
-			productReference = CA5B206F2C69A9D7005512B0 /* Weather-Viewer.app */;
+			productReference = CA5B206F2C69A9D7005512B0 /* Image-Sharing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Weather-Viewer" */;
+			buildConfigurationList = CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Image-Sharing" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA5B206E2C69A9D7005512B0 /* Weather-Viewer */,
+				CA5B206E2C69A9D7005512B0 /* Image-Sharing */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = "Image-Sharing/info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = "Image-Sharing/info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Weather-Viewer" */ = {
+		CA5B206A2C69A9D7005512B0 /* Build configuration list for PBXProject "Image-Sharing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA5B20812C69A9D8005512B0 /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Weather-Viewer" */ = {
+		CA5B20832C69A9D8005512B0 /* Build configuration list for PBXNativeTarget "Image-Sharing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA5B20842C69A9D8005512B0 /* Debug */,
