@@ -14,6 +14,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareApp))
         let fm = FileManager.default
         
         // IOS App bundle always have resource path so enforcing implicit unwrapped optional
@@ -44,6 +45,16 @@ class ViewController: UITableViewController {
             vc.appHeaderTitle = "\(indexPath.row+1) of \(pictures.count)"
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+    
+    @objc func shareApp() {
+        // Replace with your actual App Store URL
+        let appStoreURL = URL(string: "https://apps.apple.com/tn/app/gmt-international/id6464464357")!
+        // Create an array of items to share
+        let itemsToShare = [appStoreURL]
+        let vc = UIActivityViewController(activityItems: itemsToShare, applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 }
 
